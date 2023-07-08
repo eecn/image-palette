@@ -202,8 +202,6 @@ class ImagePalette:
         return [r_res,g_res,b_res]
 
 
-
-
 if __name__=="__main__":
     from PIL import Image
 
@@ -215,12 +213,3 @@ if __name__=="__main__":
 
     print(solution.get_max_palette())
     print(solution.get_palette())
-
-    a = solution.get_palette()
-    b = [elem[3] for elem in a]
-    print(sum(b))
-
-
-
-
-
