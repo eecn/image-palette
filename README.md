@@ -13,7 +13,7 @@ The C language version is also implemented.
 1. 颜色立方体方案   
     - 基于图像彩色空间，构建颜色立方体color cube；
     - 统计color cube中的颜色直方图，对颜色直方图进行排序；
-    - 计算最多颜色像素的color cube的平均颜色，作为图像的主色调。
+    - 计算最多颜色像素的color cube的平均颜色，作为图像的主色调。   
     ![](images/image.png)
 
 
