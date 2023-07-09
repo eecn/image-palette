@@ -157,9 +157,9 @@ class ImagePalette:
                         b_res = int(np.mean(b[rgb_mask]))
 
                     cube_palette.append([r_res,g_res,b_res,pixel_num])
-        # sort by pixel number
+        # sort by pixel number ascending order
         pix_nums = [elem[3] for elem in cube_palette]
-        idx = np.argsort(pix_nums)[::-1]
+        idx = np.argsort(pix_nums) # np.argsort(pix_nums)[::-1]
         cube_palette_sort = np.asarray(cube_palette)[idx]
 
         return cube_palette_sort
